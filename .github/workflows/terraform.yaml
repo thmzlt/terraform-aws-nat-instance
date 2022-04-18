@@ -16,5 +16,5 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v2
-      - uses: hashicorp/setup-terraform@v1
+      - uses: hashicorp/setup-terraform@v2
       - run: make
